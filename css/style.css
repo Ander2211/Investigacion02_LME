@@ -11,10 +11,10 @@
     margin: 0;
 }
 
+
+/*Fuente para los h1 h2 y h3*/
 .mingzat-regular {
     font-family: "Mingzat", sans-serif;
-    font-weight: 400;
-    font-style: normal;
 }  
 
 :root {
@@ -40,14 +40,17 @@ footer {
 }
 
 header {
-    background: #333;
+    padding: 0;
 }
 
+
 nav {
-    background: #000000e3;
+
     position: sticky;
     top: 0;
 }
+
+
 
 section {
     background: #555;
@@ -95,6 +98,47 @@ footer {
     }
 }
 
+/*Header y navbar*/
+
 h1{
     font-family: 'Mingzat';
 }
+
+
+li .active{
+    background-color: var(--azul);
+    border-radius: 7px;
+}
+
+
+
+
+.temas{
+    position: absolute;
+    left: 18%;
+    top: 30%;
+}
+
+.tema-title{
+    font-size: 80px;
+}
+
+.img-header{
+    width: 100%;
+    height: 825px;
+}
+.boton{
+    background-color: var(--azul);
+    border: none;
+    color: white;
+}
+
+/* fin de Header y navbar*/
+
+/*Borren los colores de fondo 
+(solo estan ahi para diferenciar el area)
+*/
+
+
+
+
