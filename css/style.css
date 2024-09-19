@@ -1,7 +1,21 @@
+/* tamaños (esto es para @media )*/
+/* 480=telefono(opcional)
+768=tablet(obligatorio)
+1400=pc(este no, por que es el que estamos usando)
+*/
+
+
+
 *{
     padding: 0;
     margin: 0;
 }
+
+.mingzat-regular {
+    font-family: "Mingzat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
 
 :root {
     --celeste-claro: #77E4C7;
@@ -13,7 +27,7 @@
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family:Arial, Helvetica, sans-serif ;
 }
 
 header,
@@ -79,4 +93,8 @@ footer {
     section {
         order: 2;
     }
+}
+
+h1{
+    font-family: 'Mingzat';
 }
