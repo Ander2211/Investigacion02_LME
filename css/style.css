@@ -3,6 +3,13 @@
     margin: 0;
 }
 
+:root {
+    --celeste-claro: #77E4C7;
+    --azul:#36C2CF ;
+    --azul2:#478CCF;
+    --azuloscuro:#4635C1;
+}
+
 
 body {
     margin: 0;
