@@ -97,3 +97,8 @@ header p {
     font-size: 14px;
     color: #666;
 }
+@media (max-width: 520px) {
+    .services{
+        flex-direction: column
+    }
+}
